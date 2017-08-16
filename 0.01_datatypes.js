@@ -44,8 +44,8 @@ console.log(true) //notice console.log(True) would return error notice capitaliz
 < less than
 > greater than
 <= less than or equal too
-== equal to 
-=== strictly equal too not only checks value but data type as well
+== equal to (if checking strings only can use this)
+=== strictly equal too not only checks value but data type as well (always when contrasting numbers)
 !	not (bang chacter)
 !=  not equal to 
 */
