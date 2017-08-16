@@ -25,6 +25,28 @@ console.log('jay'[0].toUpperCase() + 'jay' [1] + 'jay'[2]);
 
 //console.log("home"[2].toUpperCase());
 console.log('home'[0] + 'home' [1] + 'home'[2].toUpperCase() + 'home'[3]);
-// Numbers
 
-//Booleans
+//key word typeof() tells what type of data it is: 
+//Also, a great data check tool when using logic. If you were expecting a string and get numbers instead
+console.log(typeof("amber")); //will print out this is a string
+
+// Numbers and integers are the same 
+
+console.log(typeof(5));
+//JavaScript knows all operators +, -, *, / , %,
+console.log(2 + 5)
+
+
+//Booleans: Represented by keyword: ture and false
+
+console.log(true) //notice console.log(True) would return error notice capitalization
+/*conditional operators
+< less than
+> greater than
+<= less than or equal too
+== equal to 
+=== strictly equal too not only checks value but data type as well
+!	not (bang chacter)
+!=  not equal to 
+*/
+console.log(1 == "2");
