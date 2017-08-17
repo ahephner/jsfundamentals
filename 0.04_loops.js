@@ -88,10 +88,13 @@ for ( var l in studentName){
 var studentName="smita"
 
 for (var l in studentName) {
-	
+	function capitalize(){
 	console.log(studentName[0].toUpperCase() + studentName[1]+ studentName[2] + studentName[3] + studentName[4]);
-	break; 
-}
+	
+};
+};
+//challenge make s in smita capitalized and then complete name on pring out
+
 var student= "smita"
 var capSN=""
 for (var l in student){
@@ -100,4 +103,5 @@ for (var l in student){
 	} else {
 		capSN += studentName[l];
 	}
+	
 }
