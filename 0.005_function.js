@@ -1,6 +1,7 @@
 //Functions
 //Are like a calculator put something inside get a return 
 //() serve to hold parameters
+//a funcition inside of a method is called a callback
 
 
 
