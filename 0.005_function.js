@@ -89,3 +89,4 @@ console.log(capitalize("aj"));
 
 
 //functions with parameters
+
