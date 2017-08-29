@@ -9,7 +9,7 @@ $(document).ready(function(){
 		data.forEach(function (a){
 			$('#author').append('<h1>' + a.title + '</h1>');
 			$('#quote').append('<p>' + a.content +'</p>');
-			// $('#link').append('<h3>' + a.link + '</h3>');
+			// $('#link').append('<h3>' + a.link + '</h3>');git 
 		})
 	})
 
