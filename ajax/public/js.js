@@ -6,9 +6,13 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$.ajax({
 		type:'GET',
-		url: 'http://swapi.co/api/planets/',
+		url: 'https://api.spacexdata.com/v1/launches',
+		// url: 'http://swapi.co/api/planets/',
 	}).done(function(data){
-		// console.log(data.results[0].diameter)
+		console.log(data);
+		console.log(data[0].flight_number);
+	
+
 		data.results.forEach(function(data){	//to iterate over an index
 												//arrays returned by an api
 			let tr=document.createElement("tr")

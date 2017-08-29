@@ -44,7 +44,7 @@ $(document).ready(function(){
 			})
 			localStorage.setItem('starships', JSON.stringify(shipsObj))
 		})
-	}
+	
 
 	if(!localStorage.getItem('movies')){
 		let movieObj = {

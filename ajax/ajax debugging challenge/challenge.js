@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	localStorage.clear();
-	if(localStorage.getItem('planets')){
+	if(!localStorage.getItem('planets')){
 		$.ajax({
 			type: 'GET',
 			url: 'http://swapi.co/api/planets/',
@@ -9,7 +9,7 @@ $(document).ready(function(){
 				planets : []
 			}
 			planets.results.forEach(function(p){
-				$("#planets").append'<tr><td>'+ p.name + '</td></tr>')
+				$("#planets").append('<tr><td>'+ p.name + '</td></tr>')
 				planetsObj.planets.push(p.name)
 			})
 			localStorage.setItem('planets', JSON.stringify(planetsObj))
@@ -100,7 +100,7 @@ $(document).ready(function(){
 	})
 	$(searchName).on('click', function(){
 
-		let search = $(searchRes).val();
+		let search = $(searchRes()).val();
 		$(searchRes).val("");
 		$.ajax({
 			type: 'GET',
