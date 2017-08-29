@@ -3,14 +3,7 @@ $(document).ready(function(){
 
 	$.ajax({
 		type: 'GET',
-		url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]'
-		header: { 'Authorization': 'MDo3MDc5OWRmYy04YzFmLTExZTctYTUxNC0zYmJmZDRkOWM0MzI6RHZHbGI0QjhSMWVsWGFjYW9KZ0kyakx3a244WFgyRWl3cmpO'}
-	}).done(function(data){
-		data.forEach(function (a){
-			$('#author').append('<h1>' + a.title + '</h1>');
-			$('#quote').append('<p>' + a.content +'</p>');
-			// $('#link').append('<h3>' + a.link + '</h3>');git 
-		})
+		url: 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1'
 	})
 
 	
