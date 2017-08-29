@@ -3,7 +3,8 @@ $(document).ready(function(){
 
 	$.ajax({
 		type: 'GET',
-		url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1'
+		url: 'http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]'
+		header: { 'Authorization': 'MDo3MDc5OWRmYy04YzFmLTExZTctYTUxNC0zYmJmZDRkOWM0MzI6RHZHbGI0QjhSMWVsWGFjYW9KZ0kyakx3a244WFgyRWl3cmpO'}
 	}).done(function(data){
 		data.forEach(function (a){
 			$('#author').append('<h1>' + a.title + '</h1>');
@@ -47,4 +48,8 @@ $(document).ready(function(){
 			$('#beerTable').append(tr) // Jquery method
 		})
 	})
+
+
+
+
 })
