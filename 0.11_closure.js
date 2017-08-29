@@ -6,7 +6,8 @@
 
 // this 
 
-// Immediately Invoked Function Expression  aka IIFE
+// Immediately 
+Invoked Function Expression  aka IIFE
 
 // Creates privacy for your application with the internet. Create a scope that prevents errors creates a local scope just for your a wrapped in parathesis will imdately call it's self
 // cant refer to it outside fo the function
