@@ -14,7 +14,7 @@
 
 // 		$(submit).on('click',function(){
 // 			let person = {
-// 				name: $(usr).val(),
+// 				name: $(user).val(),
 // 				email:$(email).val()
 // 			}
 // 	$.ajax({
