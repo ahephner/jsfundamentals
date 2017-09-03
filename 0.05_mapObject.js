@@ -11,7 +11,13 @@ console.log(ajDogMap.size);//logs 2
 
 //can use this to help iterate or find out how man objects are in map
 
+let name="aj";
 
+console.log(name);
 
+var addTwo=function(x, y){
+	return x + y
 
+}
 
+console.log(addTwo(2, 3));
