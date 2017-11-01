@@ -44,5 +44,3 @@ arrOfFood.forEach(function(foodItem){
 	console.log(foodItem[0]);
 	
 })
-
-var 

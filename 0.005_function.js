@@ -25,7 +25,7 @@ updates()
 //var in functionns are local protected to that code block ie{}
 
 function greeting2(name, age, height){
-	console.log("Time to start coding" +""+ name, age, height);
+	console.log("Time to start coding" +" "+ name, age, height);
 }
 
 greeting2("aj", 30, 80);

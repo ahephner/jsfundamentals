@@ -7,7 +7,7 @@ do
 statement
 while(condition);
 
-var result '';
+var result = '';
 
 var i=0;
 
