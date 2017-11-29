@@ -8,3 +8,4 @@ myArray.forEach( function(item){
     console.log("this" + ' ' + item);
 
 });
+

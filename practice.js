@@ -4,4 +4,3 @@ var me=new Object(); {
 	me.job="student"
 }
 console.log(me.name)
-
